@@ -37,3 +37,12 @@
 ```bash
 # Clone o projeto (não requer Node.js!):
 git clone https://github.com/seu-usuario/Nhv-Project.git
+```
+
+
+---
+<p align="center">
+  <a href="https://github.com/GiovaniCavalheri">
+    <img src="https://img.shields.io/badge/Feito%20com-%E2%9D%A4%EF%B8%8F%20por%20Giovani%20Cavalheri-800080?style=flat&logo=github" alt="Feito por Giovani Cavalheri">
+  </a>
+</p>
