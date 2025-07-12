@@ -36,7 +36,7 @@
 
 ```bash
 # Clone o projeto (não requer Node.js!):
-git clone https://github.com/seu-usuario/Nhv-Project.git
+git clone https://github.com/GiovaniCavalheri/Nlw-Project.git
 ```
 
 
