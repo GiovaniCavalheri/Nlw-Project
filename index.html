@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assistente de Meta</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logoAA.png" alt="Logo AA" />
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <h2 class="title">Assistente de Meta</h2>
+          <p>Pergunte sobre builds de jogos, estratégias, dicas de programação e as últimas tecnologias para dominar seus projetos e partidas!</p>
+
+            <form id="form" action="">
+                <input id="apiKey" type="password" placeholder="Informe a API KEY do Gemini" required>
+
+                <select id="gameSelect" name="" id="">
+                    <option value="">Selecione uma opção: </option>
+                    <option value="Jogos">Jogos</option>
+                    <option value="aprendizado">Aprendizado</option>
+                    <option value="dicas">Dicas</option>
+                </select>
+
+                <input id="questionInput" type="text" placeholder="Informe sua dúvida..." required>
+
+                <button id="askButton">
+                    Perguntar
+                </button>
+            </form>
+
+            <div id="aiResponse" class="hidden">
+                <div class="response-content">
+
+                </div>
+            </div>
+
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="main.js"></script>\
+  </body>
+</html>
